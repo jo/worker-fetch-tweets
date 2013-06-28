@@ -1,7 +1,7 @@
 {
   "name": "worker-fetch-tweets",
   "description": "CouchDB worker which fetches tweets and store them in a CouchDB.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/null2/worker-fetch-tweets",
   "author": {
     "name": "Johannes J. Schmidt",
