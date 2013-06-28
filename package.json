@@ -1,0 +1,44 @@
+{
+  "name": "worker-fetch-tweets",
+  "description": "CouchDB worker which fetches tweets and store them in a CouchDB.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/null2/worker-fetch-tweets",
+  "author": {
+    "name": "Johannes J. Schmidt",
+    "email": "schmidt@netzmerk.com",
+    "url": "http://die-tf.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/null2/worker-fetch-tweets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/null2/worker-fetch-tweets/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/null2/worker-fetch-tweets/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/worker-fetch-tweets",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "bin/worker",
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "keywords": ["CouchDB", "couchdb-worker", "worker", "twitter"],
+  "dependencies": {
+    "nano": "~3.4.0",
+    "user-stream": "0.0.5"
+  }
+}

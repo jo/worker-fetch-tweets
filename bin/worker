@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var worker = require('../lib/worker-fetch-tweets.js');
+
+worker.listen({
+  url: process.env.COUCH_URL,
+  configId: process.env.TWITTER_FEED_CONFIG_ID,
+  defaults: {
+    type: 'tweet',
+    published: true
+  }
+});
